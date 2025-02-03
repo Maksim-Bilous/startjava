@@ -4,11 +4,11 @@ public class VariableNamesTheme {
 
         // цифра 
         int number = 5;
-        System.out.println("1.Цифра = " + number);
+        System.out.println("1. Цифра = " + number);
 
         // Cумма Чисел
-        int sumNumbers = 6;
-        System.out.println("2. Сумма чисел = " + sumNumbers);
+        int numbersSum = 6;
+        System.out.println("2. Сумма чисел = " + numbersSum);
 
         // Произведение цифр
         int numProd = 7;
@@ -47,12 +47,12 @@ public class VariableNamesTheme {
         System.out.println("11. Тип сообщения = " + msgType);
 
         // Число Нулей
-        int nullCol = 5;
-        System.out.println("12. Число нулей = " + nullCol);
+        int colNull = 5;
+        System.out.println("12. Число нулей = " + colNull);
 
         // Уникальное число
-        int numUnique = 25;
-        System.out.println("13. Уникальное число = " + numUnique);
+        int uniqueNum = 25;
+        System.out.println("13. Уникальное число = " + uniqueNum);
 
         // Случайное число
         int ranNumber = 34;
@@ -75,8 +75,8 @@ public class VariableNamesTheme {
         System.out.println("18. Пункт меню = " + menuItm);
 
         // Стоимость кофе
-        int cofCost = 7;
-        System.out.println("19. Стоимость кофе = " + cofCost);
+        int coffeCost = 7;
+        System.out.println("19. Стоимость кофе = " + coffeCost);
 
         // Дата начала
         int strDateD = 15;
@@ -109,15 +109,13 @@ public class VariableNamesTheme {
 
         // Путь до файла
         String filPath = "C:\\users\\user1\\MyFirstApp\\";
-
         System.out.println("27. Путь до файла = " + filPath);
 
         // Количество чисел в каждой строке
-        int colNumbersAllLin = 4338;
-        System.out.println("28. Количество чисел в каждой строке = " + colNumbersAllLin);
+        int totalCount = 4338;
+        System.out.println("28. Количество чисел в каждой строке = " + totalCount);
 
         System.out.println();
-
         System.out.println("Блок 2. Boolean-переменные");
 
         // Сотни равны?
@@ -159,14 +157,13 @@ public class VariableNamesTheme {
         System.out.println();
 
         System.out.println("Блок 3. Аббревиатуры");
-
         // старый universally unique identifier
         String oldUniversallyUniqueIdentifier = "UUID";
         System.out.println("1. старый universally unique identifier = " + oldUniversallyUniqueIdentifier);
 
         // Производитель оперативной памяти
         String manufacturerRam = "DRAM";
-        System.out.println("2. Производительоперативной памяти = " + manufacturerRam);
+        System.out.println("2. Производитель оперативной памяти = " + manufacturerRam);
 
         // Емкость жесткого диска
         String hardDiskCapacity = "Capacity HDD";
