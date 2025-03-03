@@ -1,4 +1,4 @@
-
+package com.startjava.lesson_1.final_;
 import java.util.Scanner;
 public class MyFirstGame {
     public static void main(String[] args) {
@@ -22,10 +22,10 @@ public class MyFirstGame {
         }
         if (playerDigit < min) {
             System.out.println("Число меньше диапазона");
-            break;
+            System.exit(0);
         }else if (playerDigit > max) {
             System.out.println("Число больше диапазона");
-            break;
+            System.exit(0);
         }
         }
     }

@@ -1,3 +1,4 @@
+package com.startjava.lesson_1.robot;
 public class Jaeger {
     private String modelName;
     private String bodyLanguage;
