@@ -1,4 +1,4 @@
-package com.startjava.lesson_1.animal;
+package com.startjava.lesson_2_3_4.animal;
 
 public class Wolf {
     private String gender;
@@ -27,7 +27,7 @@ public class Wolf {
     public void setAge(int age) {
         if (age > 8){
             System.out.println("Некорректный возраст");
-        } else if (age <= 8) {
+        } else if (age < 8) {
         this.age = age;
         }
     }
